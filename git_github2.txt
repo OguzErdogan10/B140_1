@@ -1,1 +1,2 @@
 -deneme yapıyoruz denemeye devam ediyoruz
+--oguz branch i güncelleme yapıldı
