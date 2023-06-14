@@ -1,4 +1,4 @@
---Local'imizde repo oluşturma ve git-github kullanımı
+--Local'imizde repo oluşturabilmek için
 1-Çalışacağımız klazörü seçip yada yeni bir klasör oluşturup, klasörün yolunu gösteren bölüme cmd yazıp
 enter yapıp açmış olduğumuz klasörün yolunda terminalimizi açmış oluruz
 2-Ve bu dizinde açılan terminale GİT INIT küçük harflerler yazarız ve initilaze empty git repository yazısını
@@ -13,10 +13,3 @@ gördüğümüzde bu çalışma alanımızda boş bir repository oluşturmuş ol
 10-Localimizde ilişkendirdiğimiz adresi git remote -v komutuyla görebiliriz.
 11-Github tarafında yaptığımız bir değişlik olursa adresi bir kerelik tanımladığımız için sadece git pull yapmamız yeterlidir.
 Aynı şekilde adresi tanımladığımız için sadece git push komutu ilede kodlarımızı gönderebiliriz
-
---Restore, Branch ve Stash komutları
---Restore/Branch ve Stash komutları
-1- Working Space ve Staging Area daki yapmış olduğumuz değişiklikleri geri alabiliriz.
-Working Space de yaptığımız bir güncellemeyi geri almak için ---> git restore . <-- komutuyla yapılan değişiklikleri geri alabiliriz
-Eğer Stage den geri almak istersek --> git restore --staged . <-- komutuyla working space'e geri alabiliriz
-Ama her ikisindende yazdıklarımız kaldırmak istersek --> git reset --hard <-- komutunu kullanırız.
